@@ -1,0 +1,17 @@
+name: Feature Request
+description: Suggest an enhancement or new capability for Colibri AI Studio
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: Describe the feature and how it improves the local AI workstation workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Implementation Notes / UI Considerations
+      description: Any relevant Colibri CLI flags, Liquid Glass theme notes, or hardware considerations.

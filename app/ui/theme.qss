@@ -1,0 +1,7 @@
+/* Default Obsidian Liquid Glass fallback stylesheet (dynamic themes are generated via liquid_glass.py) */
+QWidget {
+    color: #F8FAFC;
+    font-family: "Segoe UI Variable Text", "Segoe UI Variable Display", "Inter", "Aptos", "Segoe UI", sans-serif;
+    font-size: 13px;
+    background: transparent;
+}

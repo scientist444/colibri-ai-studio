@@ -1,0 +1,11 @@
+PyQt6>=6.7.0
+psutil>=6.0.0
+nvidia-ml-py>=12.535.0
+httpx>=0.27.0
+huggingface_hub>=0.25.0
+pydantic>=2.9.0
+markdown-it-py>=3.0.0
+Pygments>=2.18.0
+keyring>=25.4.0
+pywin32>=306; sys_platform == "win32"
+Pillow>=10.4.0

@@ -1,0 +1,39 @@
+name: Bug Report
+description: Report a defect in Colibri AI Studio (UI, hardware profiler, downloads, or Colibri backend)
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue in **Colibri AI Studio**. Please provide your Windows environment and hardware details below.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware & Windows Environment
+      description: Windows version, CPU, System RAM, GPU (NVIDIA/AMD/Intel), and NVMe/SSD free space.
+      placeholder: "Windows 11 24H2 | Core i7-13645HX | 16 GB RAM | RTX 5060 8 GB | NVMe SSD"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Open Colibri AI Studio
+        2. Go to Model Hub -> ...
+        3. Click ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Redacted Logs (Optional)
+      description: Export a redacted diagnostic bundle from Settings -> 06. Diagnostics.

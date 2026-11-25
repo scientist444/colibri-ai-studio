@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyInstaller build artifacts (distribute ColibriAIStudio.exe via GitHub Releases)
+build/
+dist/
+*.spec
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local mutable data / logs / scratch
+logs/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.part
+.colibri-download.json
+
+# OS files
+Thumbs.db
+.DS_Store
